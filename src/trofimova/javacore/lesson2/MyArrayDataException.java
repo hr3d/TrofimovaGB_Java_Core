@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class MyArrayDataException {
+public class MyArrayDataException extends Exception{
+
+    public MyArrayDataException(String dataError){
+        super(dataError);
+    }
+
 }
